@@ -1,0 +1,8 @@
+CREATE TABLE student (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    sex VARCHAR(10) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    register_date DATE NOT NULL
+);
